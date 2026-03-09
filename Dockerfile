@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre-alpine
+FROM FROM eclipse-temurin:17-jre
 
 WORKDIR /waterfall
 
