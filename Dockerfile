@@ -7,7 +7,7 @@ RUN apk add --no-cache curl && \
     https://api.papermc.io/v2/projects/waterfall/versions/1.20/builds/549/downloads/waterfall-1.20-549.jar
 
 RUN mkdir -p plugins
-COPY EaglerXBungee.jar plugins/EaglerXBungee.jar
+COPY EaglercraftX_1.8_EaglerXBungee.jar plugins/EaglerXBungee.jar
 
 COPY config.yml config.yml
 
