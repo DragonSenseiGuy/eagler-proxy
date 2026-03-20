@@ -8,4 +8,4 @@ COPY EaglerXServer.jar EaglerXServer.jar
 
 EXPOSE 8081
 
-CMD ["java", "-Xms512m", "-Xmx1G", "-jar", "EaglerXServer.jar"]
+CMD ["java", "-cp", "EaglerXServer.jar", "net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.EaglerXServerMain"]
